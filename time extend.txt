@@ -1,0 +1,21 @@
+UPDATE licensesapi
+SET AndroidID = ""
+
+
+UPDATE licensesapi
+SET ExpiryTime = ExpiryTime + 518100
+WHERE ExpiryTime != 0;
+
+
+
+
+------------------------
+Lethal extend
+
+UPDATE licenseslethalapi
+SET AndroidID = ""
+
+
+UPDATE licenseslethalapi
+SET ExpiryTime = ExpiryTime + 518100
+WHERE ExpiryTime != 0;
